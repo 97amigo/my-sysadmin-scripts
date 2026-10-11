@@ -1,0 +1,83 @@
+﻿======================================================================
+  ОТЧЁТ СБОРЩИКА ЛОГОВ
+======================================================================
+Дата отчёта:     2026-10-11 13:43:56
+Хост:            6341473-cr256142
+Пользователь:    root
+Источник:        /var/log/syslog
+Период:          2026-10-11T00:05:26.062111+00:00  —  2026-10-11T13:43:36.892975+00:00
+Ключевые слова:  info|warning|fail
+
+1. ОБЩАЯ СТАТИСТИКА
+======================================================================
+  Всего строк в логе:     5190
+  Найдено событий:        2139 (41.2%)
+
+2. СОБЫТИЯ ПО КЛЮЧЕВЫМ СЛОВАМ
+======================================================================
+  info            2136  ########################################
+  warning            0  
+  fail               3  
+
+3. ТОП-10 ПРОЦЕССОВ С СОБЫТИЯМИ
+======================================================================
+     2136  qemu-ga
+        2  systemd
+        1  zabbix_agentd
+
+4. ПОСЛЕДНИЕ 50 СОБЫТИЙ
+======================================================================
+  2026-10-11T13:20:21.305439+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda16"
+  2026-10-11T13:20:21.507651+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121317
+  2026-10-11T13:25:20.422087+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c basename "$(readlink -f /dev/disk/by-path/*scsi-0:0:0:0)""
+  2026-10-11T13:25:20.625633+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121615
+  2026-10-11T13:25:20.627332+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c lsblk --list -o NAME,FSTYPE --noheadings /dev/sda"
+  2026-10-11T13:25:20.830916+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121619
+  2026-10-11T13:25:20.832457+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda1"
+  2026-10-11T13:25:21.035874+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121622
+  2026-10-11T13:25:21.037780+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda14"
+  2026-10-11T13:25:21.241814+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121625
+  2026-10-11T13:25:21.243374+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda15"
+  2026-10-11T13:25:21.447084+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121628
+  2026-10-11T13:25:21.448252+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda16"
+  2026-10-11T13:25:21.651429+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121631
+  2026-10-11T13:30:25.482809+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c basename "$(readlink -f /dev/disk/by-path/*scsi-0:0:0:0)""
+  2026-10-11T13:30:25.686525+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121955
+  2026-10-11T13:30:25.688667+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c lsblk --list -o NAME,FSTYPE --noheadings /dev/sda"
+  2026-10-11T13:30:25.892658+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121959
+  2026-10-11T13:30:25.895184+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda1"
+  2026-10-11T13:30:26.100696+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121962
+  2026-10-11T13:30:26.102471+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda14"
+  2026-10-11T13:30:26.307685+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121965
+  2026-10-11T13:30:26.309575+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda15"
+  2026-10-11T13:30:26.513295+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121968
+  2026-10-11T13:30:26.515773+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda16"
+  2026-10-11T13:30:26.718661+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2121971
+  2026-10-11T13:35:20.728782+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c basename "$(readlink -f /dev/disk/by-path/*scsi-0:0:0:0)""
+  2026-10-11T13:35:20.932063+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122343
+  2026-10-11T13:35:20.933510+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c lsblk --list -o NAME,FSTYPE --noheadings /dev/sda"
+  2026-10-11T13:35:21.136793+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122347
+  2026-10-11T13:35:21.138198+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda1"
+  2026-10-11T13:35:21.341113+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122350
+  2026-10-11T13:35:21.342622+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda14"
+  2026-10-11T13:35:21.546065+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122353
+  2026-10-11T13:35:21.548479+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda15"
+  2026-10-11T13:35:21.752424+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122356
+  2026-10-11T13:35:21.756269+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda16"
+  2026-10-11T13:35:21.958984+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122359
+  2026-10-11T13:40:21.049542+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c basename "$(readlink -f /dev/disk/by-path/*scsi-0:0:0:0)""
+  2026-10-11T13:40:21.253766+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122507
+  2026-10-11T13:40:21.255377+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c lsblk --list -o NAME,FSTYPE --noheadings /dev/sda"
+  2026-10-11T13:40:21.459059+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122511
+  2026-10-11T13:40:21.463751+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda1"
+  2026-10-11T13:40:21.668064+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122514
+  2026-10-11T13:40:21.670038+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda14"
+  2026-10-11T13:40:21.873990+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122519
+  2026-10-11T13:40:21.876069+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda15"
+  2026-10-11T13:40:22.080668+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122522
+  2026-10-11T13:40:22.083382+00:00 6341473-cr256142 qemu-ga: info: guest-exec called: "/bin/sh -c df -Pk /dev/sda16"
+  2026-10-11T13:40:22.288409+00:00 6341473-cr256142 qemu-ga: info: guest-exec-status called, pid: 2122525
+
+======================================================================
+  Конец отчёта
+======================================================================
